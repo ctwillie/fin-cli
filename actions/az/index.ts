@@ -1,5 +1,5 @@
-import { fetchAzureGroups } from "./groups";
+import { generateWebAppSshCommand } from "./ssh";
 
 export const azureActions = {
-  fetchAzureGroups,
+  generateWebAppSshCommand,
 };
